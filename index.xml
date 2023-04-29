@@ -35,7 +35,7 @@
     <item>
       <title>Пост по прошедшей неделе.</title>
       <link>https://example.com/post/post1/</link>
-      <pubDate>Thu, 13 Apr 2023 00:00:00 +0000</pubDate>
+      <pubDate>Thu, 20 Apr 2023 00:00:00 +0000</pubDate>
       <guid>https://example.com/post/post1/</guid>
       <description>&lt;h2 id=&#34;цели-прошедшей-недели&#34;&gt;Цели прошедшей недели&lt;/h2&gt;
 &lt;ol&gt;
@@ -48,6 +48,34 @@
 &lt;p&gt;Прошедшая неделя была для меня действительно очень насыщенной.&lt;/p&gt;
 &lt;h2 id=&#34;итоги&#34;&gt;Итоги&lt;/h2&gt;
 &lt;p&gt;В результате выполнения лабораторной работы 11 на прошлой неделе под названием Программирование в команде Процессор ОС UNIX. Ветви и циклы Я изучил основы программирования оболочки UNIX. как написать больше сложные пакетные файлы с использованием логических управляющих конструкций и циклы.&lt;/p&gt;
+&lt;p&gt;Released under the &lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-themes/blob/master/LICENSE.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Оформление отчёта.</title>
+      <link>https://example.com/post/post2/</link>
+      <pubDate>Thu, 13 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://example.com/post/post2/</guid>
+      <description>&lt;h2 id=&#34;оформление-отчёта-что-такое&#34;&gt;Оформление отчёта что такое?&lt;/h2&gt;
+&lt;p&gt;Отчёт — структурированное отображение информации, формируемое на основе данных, хранящихся в информационной системе (ИС), и предоставляемое по запросу пользователя системы.&lt;/p&gt;
+&lt;h2 id=&#34;источники-отчетов&#34;&gt;Источники отчетов&lt;/h2&gt;
+&lt;p&gt;Предопределенные отчеты собирают данные из базы данных Endpoint Manager. Если создать пользовательский отчет, можно указать включение в отчет других доступных источников данных.
+Форматы отчетов&lt;/p&gt;
+&lt;p&gt;При запуске отчета его можно сохранить с использованием одного из следующих форматов:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;HTML: Стандартный формат HTML. В отчетах HTML можно щелкать диаграммы для просмотра подробной информации.
+Изображение: Файл точечного рисунка.
+PDF: Файл Adobe PDF.
+XML: Текстовый файл в формате XML.
+DOC: Формат Microsoft Word.
+XLS: Формат Microsoft Excel.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;При планировании отчета в средстве &amp;ldquo;Отчеты&amp;rdquo; (Reports) можно использовать следующие форматы:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;XLS: Формат Microsoft Excel.
+PDF: Файл Adobe PDF.
+DOC: Формат Microsoft Word.
+CSV: Файл данных с разделителями-запятыми.
+&lt;/code&gt;&lt;/pre&gt;
 &lt;p&gt;Released under the &lt;a href=&#34;https://github.com/wowchemy/wowchemy-hugo-themes/blob/master/LICENSE.md&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;MIT&lt;/a&gt; license.&lt;/p&gt;
 </description>
     </item>
@@ -156,7 +184,7 @@ data.head()
 
 
 
-&lt;div id=&#34;chart-924731568&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
+&lt;div id=&#34;chart-324759168&#34; class=&#34;chart&#34;&gt;&lt;/div&gt;
 &lt;script&gt;
   (function() {
     let a = setInterval( function() {
@@ -166,7 +194,7 @@ data.head()
       clearInterval( a );
 
       Plotly.d3.json(&#34;./line-chart.json&#34;, function(chart) {
-        Plotly.plot(&#39;chart-924731568&#39;, chart.data, chart.layout, {responsive: true});
+        Plotly.plot(&#39;chart-324759168&#39;, chart.data, chart.layout, {responsive: true});
       });
     }, 500 );
   })();
